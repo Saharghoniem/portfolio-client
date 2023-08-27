@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 const Header = () => {
-    const style = {display: "inline-block", margin: 50, marginBottom: 10,fontSize:"45px" , backgroundColor:"white"};
+    const style = {display: "inline-block", margin: 10, marginBottom: 10,fontSize:"25px" , backgroundColor:"white"};
     const stylee = { backgroundColor:"white" ,marginBottom: 30};
 
     return (

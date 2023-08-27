@@ -7,13 +7,13 @@ class Amthal extends Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3006/amthal/random")
+    fetch(" http://localhost:3006/amthal/random")
       .then((response) => response.json())
       .then((json) => this.setState({ mathal: json }));
   }
 
   fetchAmthal = () => {
-    fetch("http://localhost:3006/amthal/ten")
+    fetch(" http://localhost:3006/amthal/ten")
       .then((response) => response.json())
       .then((json) => this.setState({ amthal: json }));
   };
@@ -37,3 +37,6 @@ class Amthal extends Component {
 }
 
 export default Amthal;
+
+
+// http://localhost:3006
